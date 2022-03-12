@@ -40,12 +40,17 @@ body {
 
 .search-and-profile {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 0.5fr 5fr 0.5fr 0.5fr 1fr;
+  align-items: center;
+}
+
+.search-and-profile > div {
+  height: ;
   align-items: center;
 }
 
 .search-bar {
-  width: 10rem;
+  width: 90%;
   height: 1.75rem;
   border-radius: 25px;
   background-color: #EFEFEF;
@@ -53,4 +58,19 @@ body {
 
 .search-and-profile p {
   font-weight: bold;
+}
+
+.search-and-profile > div {
+/*  border: 1px solid red; */
+}
+
+.search-icon,
+.bell-icon,
+.profile-pic {
+  height: 2rem;
+  text-align: center;
+}
+
+img {
+  height: 100%;
 }
