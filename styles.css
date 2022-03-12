@@ -44,11 +44,6 @@ body {
   align-items: center;
 }
 
-.search-and-profile > div {
-  height: ;
-  align-items: center;
-}
-
 .search-bar {
   width: 90%;
   height: 1.75rem;
@@ -60,10 +55,6 @@ body {
   font-weight: bold;
 }
 
-.search-and-profile > div {
-/*  border: 1px solid red; */
-}
-
 .search-icon,
 .bell-icon,
 .profile-pic {
@@ -73,4 +64,32 @@ body {
 
 img {
   height: 100%;
+}
+
+.quick-actions {
+  display: grid;
+  grid-template-columns: 0.75fr 3fr 1fr 1fr 1fr;
+  border: 1px solid red;
+}
+
+.quick-actions > div {
+  max-height: 3rem;
+}
+
+.large-profile {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+.greeting {
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.greeting p:first-child {
+  font-size: 0.8rem;
+}
+
+.greeting p:last-child {
+  font-size: 1.1rem;
 }
