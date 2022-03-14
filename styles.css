@@ -69,7 +69,6 @@ img {
 .quick-actions {
   display: grid;
   grid-template-columns: 0.75fr 3fr 1fr 1fr 1fr;
-  border: 1px solid red;
 }
 
 .quick-actions > div {
@@ -79,6 +78,11 @@ img {
 .large-profile {
   text-align: right;
   padding-right: 1rem;
+}
+
+.large-profile img {
+  border-radius: 50%;
+  border: 2px solid black;
 }
 
 .greeting {
@@ -92,4 +96,24 @@ img {
 
 .greeting p:last-child {
   font-size: 1.1rem;
+}
+
+.button-new,
+.button-upload,
+.button-share {
+  text-align: center;
+}
+
+.quick-actions button {
+  border: none;
+  padding: 0.75rem 2.5rem;
+  color: white;
+  font-weight: bold;
+  background-color: #7c3aed;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Helvetica;
+  margin: 2.5% 0;
+  outline: none;
 }
