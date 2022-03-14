@@ -182,3 +182,43 @@ img {
 .settings-actions {
   grid-template-rows: repeat(3, 2rem);
 }
+
+.column-2 {
+  border: 1px solid black;
+}
+
+.column-1 {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 0.75rem;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 25px;
+  padding: 4vh 2vw 4vh 1vw;
+}
+
+h2 {
+  font-size: 1.1rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 25px;
+  border: 1px solid red;
+  height: auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  padding: 1.25rem 1rem;
+}
