@@ -280,7 +280,6 @@ h3, h4 {
 }
 
 .trending {
-  border: 1px solid black;
   margin-top: 2rem;
   display: grid;
   grid-template-rows: auto 1fr;
@@ -292,4 +291,16 @@ h3, h4 {
   border-radius: 5px;
   display: grid;
   padding-left: 1rem;
+  padding-top: 1rem;
+  grid-template-columns: auto 1fr;
+}
+
+.trending-container img {
+  width: 1.75rem;
+  height: 1.75rem;
+  display: inline-block;
+}
+
+.user {
+  margin-left: 1rem;
 }
