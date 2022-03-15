@@ -225,7 +225,8 @@ h3, h4 {
 }
 
 .card p,
-.announcements-container p {
+.announcements-container p,
+.trending p {
   font-size: 0.8rem;
   color: #858585;
 }
@@ -276,4 +277,19 @@ h3, h4 {
 .site-maintenance,
 .community-share {
   border-bottom: 1px solid #858585;
+}
+
+.trending {
+  border: 1px solid black;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.trending-container {
+  background-color: white;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  display: grid;
+  padding-left: 1rem;
 }
