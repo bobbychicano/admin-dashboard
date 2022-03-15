@@ -37,10 +37,6 @@ body {
   background-color: #EFEFEF;
 }
 
-.header div {
-
-}
-
 .search-and-profile {
   display: grid;
   grid-template-columns: 0.5fr 5fr 0.5fr 0.5fr 1fr;
@@ -222,7 +218,7 @@ h3 {
   display: grid;
   grid-template-columns: 10px 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-
+  box-shadow: 0 4px 3px -1px #A8A8A8;
 }
 
 .card h3,
@@ -233,6 +229,7 @@ h3 {
 
 .card p {
   font-size: 0.8rem;
+  color: #858585;
 }
 
 .card h3 {
