@@ -6,4 +6,4 @@ The purpose of this project was to master the precise placement of elements in a
 
 To accomplish this task I utilized the CSS Grid Layout Model.
 
-(./images/admin-dashboard-screenshot.png)
+![Dashboard](./images/admin-dashboard-screenshot.png)
